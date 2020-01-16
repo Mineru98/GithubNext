@@ -1,0 +1,91 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+.blog.background {
+	background-color: #222;
+	text-shadow: 0 0 5px #C8C8C8;
+	background-size: cover;
+	height: 400px;
+	color: white;
+	padding: 50px
+}
+
+.blog.container {
+	font-family: Consolas;
+	margin-top: 50px;
+	margin-bottom: 300px;
+}
+
+#blog_header {
+	color: #2185d0;
+}
+
+#blog_tab {
+	margin: 0px 20px;
+	font-size: 1.3rem;
+	color: rgba(0,0,0);
+	font-weight: bold;
+	font-family: "NanumSquare";
+}
+
+#blog_list_item {
+	padding: 30px 20px;
+}
+
+#blog_list_header {
+	color: rgba(0,0,0);
+	margin: 20px;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: "NanumSquare";
+}
+
+#blog_list_content {
+	color: rgba(0,0,0,.7);
+	font-size: 1.2rem;
+	margin: 20px;
+	font-family: "NanumSquare";
+}
+
+a.item >  a {
+	color: #6d6d6d;
+}
+a.item >  a:hover {
+	color: #bbbbbb;
+}
+
+h1 {
+	font-family: Consolas;
+}
+
+p {
+	font-size: 16px;
+	font-family: "NanumSquare";
+}
+
+.ui.sticky{
+	margin-top: 75px;
+}
+
+pre {
+	background-color: #f6f8fa;
+	padding: 10px;
+	overflow: scroll;
+}
+
+code {
+	font-family: SFMono-Regular;
+	font-size: 13.6px;
+}
+table, th, td { border: 1px solid #bbbbbb; padding: 4px; }
+table { border-collapse: collapse; }
+blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 5px solid #27e372;
+}
+
+img {
+	width: 100%;
+}
