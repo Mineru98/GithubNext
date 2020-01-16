@@ -815,7 +815,7 @@ class HomeJP extends React.Component {
 							<Header
 								id="default"
 								as="h2"
-								image="/img/project.svg"
+								image="/static/imgs/project.svg"
 								content={Japanese.Project}
 							/>
 							<p id="default" className="description">
@@ -950,7 +950,7 @@ class HomeJP extends React.Component {
 							<Header
 								id="default"
 								as="h2"
-								image="/img/language.svg"
+								image="/static/imgs/language.svg"
 								content={Japanese.Code}
 							/>
 							<Grid>
@@ -986,7 +986,7 @@ class HomeJP extends React.Component {
 							<Header
 								id="default"
 								as="h2"
-								image="/img/project.svg"
+								image="/static/imgs/project.svg"
 								content={Japanese.Project}
 							/>
 							<p id="default" className="description">
@@ -1127,7 +1127,7 @@ class HomeJP extends React.Component {
 							<Header
 								id="default"
 								as="h2"
-								image="/img/language.svg"
+								image="/static/imgs/language.svg"
 								content={Japanese.Code}
 							/>
 							<Grid>

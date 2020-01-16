@@ -31,3 +31,4 @@ export default function id(props) {
 			<Tag/>
 		</div>
 	);
+}

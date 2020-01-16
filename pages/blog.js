@@ -1,6 +1,6 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
-import Blog from '../../../components/Blog/Blog';
+import Blog from '../components/Blog/Blog';
 
 export default function blog(props) {
 	return (
@@ -30,3 +30,4 @@ export default function blog(props) {
 			<Blog/>
 		</div>
 	);
+}

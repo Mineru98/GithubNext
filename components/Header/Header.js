@@ -15,7 +15,7 @@ class Header extends React.Component {
 	render() {
 		const contextRef = createRef();
 		return (
-			<div ref={contextRef}>
+			<div ref={contextRef} className="header top">
 				<Headeroom
 					wrapperStyle={{ height: '50px' }}
 					style={{
@@ -42,19 +42,19 @@ class Header extends React.Component {
 								hoverable
 							>
 								<Menu.Item header id="header">
-									<Link href='/' id="selector">
-										<Flag name="kr" />한국어
-									</Link>
+									<Flag name="kr">
+										<Link href='/'>한국어</Link>
+									</Flag>
 								</Menu.Item>
 								<Menu.Item header id="header">
-									<Link href='/en' id="selector">
-										<Flag name="us" />English
-									</Link>
+									<Flag name="us">
+										<Link href='/en'></Link>
+									</Flag>
 								</Menu.Item>
 								<Menu.Item header id="header">
-									<Link href='/jp' id="selector">
-										<Flag name="jp" />日本語
-									</Link>
+									<Flag name="jp">
+										<Link href='/jp'>日本語</Link>
+									</Flag>
 								</Menu.Item>
 							</Popup>
 							<Menu.Item header id="header">

@@ -45,7 +45,7 @@ class MyApp extends App {
 				<div>
 					{/*
 					<Responsive minWidth={769}>
-						<Header />
+						<Header/>
 						<main>
 							<Component {...pageProps} />
 						</main>

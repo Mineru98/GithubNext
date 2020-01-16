@@ -821,7 +821,7 @@ class HomeEN extends React.Component {
 							<Header
 								id="default"
 								as="h2"
-								image="/img/project.svg"
+								image="/static/imgs/project.svg"
 								content={English.Project}
 							/>
 							<p id="default" className="description">
@@ -956,7 +956,7 @@ class HomeEN extends React.Component {
 							<Header
 								id="default"
 								as="h2"
-								image="/img/language.svg"
+								image="/static/imgs/language.svg"
 								content={English.Code}
 							/>
 							<Grid>
@@ -992,7 +992,7 @@ class HomeEN extends React.Component {
 							<Header
 								id="default"
 								as="h2"
-								image="/img/project.svg"
+								image="/static/imgs/project.svg"
 								content={English.Project}
 							/>
 							<p id="default" className="description">
@@ -1133,7 +1133,7 @@ class HomeEN extends React.Component {
 							<Header
 								id="default"
 								as="h2"
-								image="/img/language.svg"
+								image="/static/imgs/language.svg"
 								content={English.Code}
 							/>
 							<Grid>
