@@ -42,19 +42,16 @@ class Header extends React.Component {
 								hoverable
 							>
 								<Menu.Item header id="header">
-									<Flag name="kr">
-										<Link href='/'>한국어</Link>
-									</Flag>
+									<Flag name="kr"/>
+									<Link href='/'>한국어</Link>
 								</Menu.Item>
 								<Menu.Item header id="header">
-									<Flag name="us">
-										<Link href='/en'></Link>
-									</Flag>
+									<Flag name="us"/>
+									<Link href='/en'>English</Link>
 								</Menu.Item>
 								<Menu.Item header id="header">
-									<Flag name="jp">
-										<Link href='/jp'>日本語</Link>
-									</Flag>
+									<Flag name="jp"/>
+									<Link href='/jp'>日本語</Link>
 								</Menu.Item>
 							</Popup>
 							<Menu.Item header id="header">

@@ -1,35 +1,25 @@
-import React, { createRef } from 'react';
+import React, { createRef, useState, useEffect } from 'react';
 import {
 	Container,
-	Responsive
+	Responsive,
+	Grid
 } from 'semantic-ui-react';
+import Router, {useRouter} from 'next/router'
 import ReactMarkdown from 'react-markdown';
 import queryString from 'query-string';
 import axios from 'axios';
 import './Tag.css';
 
-class Tag extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			source: ''
-		};
-	}
-	
-	UNSAFE_componentWillMount() {
-		const tag = this.props.match.params.tag;
-		const query = queryString.parse(this.props.location.search);
-		const url = `https://mineru98.github.io/static/posts/${query.id}.md`;
+function Tag(props) {
+	const [source, setSource] = useState('');
+	const {query: { id }} = useRouter();
+	useEffect(() => {
+    const url = `https://mineru98.github.io/static/posts/${id}.md`;
 		axios.get(url).then(res => {
-			this.setState({
-				source: res.data
-			});
+			setSource(res.data)
 		});
-	}
-
-	render() {
-		const { source } = this.state;
-		return (
+  });
+	return (
 			<div>
 				{/* PC 화면 */}
 				<Responsive minWidth={769}>
@@ -71,6 +61,6 @@ class Tag extends React.Component {
 				</Responsive>
 			</div>
 		);
-	}
 }
+
 export default Tag;

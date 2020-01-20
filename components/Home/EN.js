@@ -138,7 +138,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_cplusplus.png" /> C
 											</Label>
 										</Card.Content>
@@ -161,7 +161,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_csharp.png" /> C#
 											</Label>
 										</Card.Content>
@@ -196,7 +196,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
 										</Card.Content>
@@ -222,7 +222,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
 											</Label>
 										</Card.Content>
@@ -245,7 +245,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
 											</Label>
 										</Card.Content>
@@ -271,7 +271,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
 										</Card.Content>
@@ -306,7 +306,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_js.png" /> JavaScript
 											</Label>
 										</Card.Content>
@@ -332,7 +332,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_nodejs.png" /> NodeJS
 											</Label>
 										</Card.Content>
@@ -355,7 +355,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_reactjs.png" /> ReactJS
 											</Label>
 										</Card.Content>
@@ -390,7 +390,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 										</Card.Content>
@@ -413,7 +413,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 										</Card.Content>
@@ -436,7 +436,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 										</Card.Content>
@@ -474,7 +474,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_cplusplus.png" /> C
 											</Label>
 										</Card.Content>
@@ -499,7 +499,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_csharp.png" /> C#
 											</Label>
 										</Card.Content>
@@ -534,7 +534,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
 										</Card.Content>
@@ -562,7 +562,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
 											</Label>
 										</Card.Content>
@@ -587,7 +587,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
 											</Label>
 										</Card.Content>
@@ -615,7 +615,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
 										</Card.Content>
@@ -650,7 +650,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_js.png" /> JavaScript
 											</Label>
 										</Card.Content>
@@ -678,7 +678,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_nodejs.png" /> NodeJS
 											</Label>
 										</Card.Content>
@@ -703,7 +703,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_reactjs.png" /> ReactJS
 											</Label>
 										</Card.Content>
@@ -738,7 +738,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 										</Card.Content>
@@ -763,7 +763,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 										</Card.Content>
@@ -788,7 +788,7 @@ class HomeEN extends React.Component {
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
-											<Label as="a" color="white" image>
+											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 										</Card.Content>
@@ -846,7 +846,7 @@ class HomeEN extends React.Component {
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
-												<Label as="a" color="white" image>
+												<Label as="a" image>
 													<Image src="/static/imgs/icon_xamarin.png" /> Xamarin.forms
 												</Label>
 											</Card.Content>
@@ -869,7 +869,7 @@ class HomeEN extends React.Component {
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
-												<Label as="a" color="white" image>
+												<Label as="a" image>
 													<Image src="/static/imgs/icon_reactjs.png" /> ReactJS
 												</Label>
 											</Card.Content>
@@ -895,7 +895,7 @@ class HomeEN extends React.Component {
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
-												<Label as="a" color="white" image>
+												<Label as="a" image>
 													<Image src="/static/imgs/icon_java.png" /> Java
 												</Label>
 											</Card.Content>
@@ -920,7 +920,7 @@ class HomeEN extends React.Component {
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
-												<Label as="a" color="white" image>
+												<Label as="a" image>
 													<Image src="/static/imgs/icon_python.png" /> Python
 												</Label>
 											</Card.Content>
@@ -943,7 +943,7 @@ class HomeEN extends React.Component {
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
-												<Label as="a" color="white" image>
+												<Label as="a" image>
 													<Image src="/static/imgs/icon_python.png" /> Python
 												</Label>
 											</Card.Content>
@@ -1017,7 +1017,7 @@ class HomeEN extends React.Component {
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
-												<Label as="a" color="white" image>
+												<Label as="a" image>
 													<Image src="/static/imgs/icon_xamarin.png" /> Xamarin.forms
 												</Label>
 											</Card.Content>
@@ -1042,7 +1042,7 @@ class HomeEN extends React.Component {
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
-												<Label as="a" color="white" image>
+												<Label as="a" image>
 													<Image src="/static/imgs/icon_reactjs.png" /> ReactJS
 												</Label>
 											</Card.Content>
@@ -1070,7 +1070,7 @@ class HomeEN extends React.Component {
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
-												<Label as="a" color="white" image>
+												<Label as="a" image>
 													<Image src="/static/imgs/icon_java.png" /> Java
 												</Label>
 											</Card.Content>
@@ -1095,7 +1095,7 @@ class HomeEN extends React.Component {
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
-												<Label as="a" color="white" image>
+												<Label as="a" image>
 													<Image src="/static/imgs/icon_python.png" /> Python
 												</Label>
 											</Card.Content>
@@ -1120,7 +1120,7 @@ class HomeEN extends React.Component {
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
-												<Label as="a" color="white" image>
+												<Label as="a" image>
 													<Image src="/static/imgs/icon_python.png" /> Python
 												</Label>
 											</Card.Content>

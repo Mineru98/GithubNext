@@ -1,9 +1,9 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
-import Tag from '../../../components/Tag/Tag';
+import Tag from '../components/Tag/Tag';
 import ReactMarkdown from 'react-markdown';
 
-export default function id(props) {
+export default function tag(props) {
 	return (
 		<div>
 			<NextSeo
